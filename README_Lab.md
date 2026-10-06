@@ -1,5 +1,4 @@
 # Laboratorio: Cliente TCP con Raw Sockets
-
 **Modificación, Análisis y Visualización de una Sesión TCP**
 
 ---
@@ -268,7 +267,3 @@ sequenceDiagram
 | `tcp_client.h` | Incorporación del campo `client_port` en la estructura de opciones y `OPT_CLIENT_PORT`. |
 | `tcp_client.c` | Incorporación del flag `-c / --client-port`, implementación del bucle interactivo `fgets` para N mensajes, e invocación a la secuencia visual de la sesión. |
 | `README_Lab.md` | Documentación integral del laboratorio por fases, validación de cierre y guía para Wireshark. |
-
-## Proyecto 02: Traceroute
-
-La implementacion solicitada en `Proyecto_-_Traceroute.pdf` se encuentra en `Traceroute/`. Incluye versiones en C, Python y Perl que construyen probes IPv4/UDP, reciben respuestas ICMP y permiten configurar TTL, saltos, probes, timeout y pausa. Consulte `Traceroute/README.md` para compilar, ejecutar y comparar contra el traceroute del sistema.
