@@ -1,6 +1,6 @@
 /* Educational IPv4 traceroute: manual IP/UDP probes and raw ICMP replies. */
-#define _POSIX_C_SOURCE 200112L
-
+#define _GNU_SOURCE
+#include <netdb.h>  // Para NI_MAXHOST
 #include <arpa/inet.h>
 #include <errno.h>
 #include <netdb.h>
