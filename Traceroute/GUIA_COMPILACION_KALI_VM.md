@@ -1,4 +1,4 @@
-# Guia de compilacion y ejecucion en Kali Linux (maquina virtual)
+# Guia de compilacion y ejecucion en Kali Linux
 
 Esta guia prepara una VM con Kali Linux para compilar y probar las implementaciones de traceroute de este proyecto. Los programas construyen probes IPv4/UDP y reciben respuestas ICMP mediante raw sockets. Para ejecutarlos se requieren permisos de `root` o la capacidad `CAP_NET_RAW`.
 
